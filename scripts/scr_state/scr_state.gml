@@ -77,5 +77,8 @@ function scr_movement(_use_grav = true, _use_term_vel = true){
     on_ground = yspd >= 0 && place_meeting( x, y+1, obj_collision)
 
     y += yspd;
-
+	
+	on_water = place_meeting(x + xspd, y, obj_swim);
+	on_water = place_meeting(x, y + yspd, obj_swim);
+	
 }

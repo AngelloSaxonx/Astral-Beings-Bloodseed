@@ -7,6 +7,7 @@ run_spr = spr_azure_run;
 dash_spr = spr_azure_dash;
 jump_spr = spr_azure_jump;
 dash_jump_spr = spr_azure_dash_air;
+swim_spr = spr_azure_swim;
 
 face = 1;
 
@@ -20,6 +21,7 @@ yspd = 0;
 grav = .275;
 term_vel = 4;
 on_ground = true;
+on_water = false;
 
 jump_max = 2;
 jump_count = 0;
@@ -80,6 +82,11 @@ scr_state_idle = function(){
     {
     
     }
+	
+	if on_water = true
+	{
+		state = scr_state_swim;
+	}
 
     scr_state_jump()
     scr_movement();
@@ -115,8 +122,6 @@ else
         sprite_index = jump_spr};
 }
 
-
-	
 };
 
 scr_state_dash = function()
@@ -131,5 +136,10 @@ scr_state_dash = function()
     scr_movement(false,false);
     }
 }
+
+scr_state_swim = function()
+	{
+	
+	}
 
 state = scr_state_idle;
