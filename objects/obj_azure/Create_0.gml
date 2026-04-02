@@ -139,7 +139,24 @@ scr_state_dash = function()
 
 scr_state_swim = function()
 	{
-	
+		var _ins = instance_place( x, y, obj_swim) 
+		var _at_surface = false;
+		if instance_exists(_ins)
+		{
+			var _yy = _ins.y+sprite_height/2
+			if (y > _yy){y = _yy};
+		}
+		if y+yspd <= _ins.y
+		{
+			yspd -= grav*2;
+			if y+yspd <= _ins.y
+			{
+				y = _ins.y;
+				yspd = 0;
+				_at_surface = true;
+			}
+		}
+		scr_movement(!_at_surface)
 	}
 
 state = scr_state_idle;

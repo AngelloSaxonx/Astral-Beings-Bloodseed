@@ -136,6 +136,7 @@
     {"id":{"name":"spr_task_gather","path":"sprites/spr_task_gather/spr_task_gather.yy",},},
     {"id":{"name":"spr_test","path":"sprites/spr_test/spr_test.yy",},},
     {"id":{"name":"spr_transition","path":"sprites/spr_transition/spr_transition.yy",},},
+    {"id":{"name":"spr_Treasure","path":"sprites/spr_Treasure/spr_Treasure.yy",},},
     {"id":{"name":"spr_warp","path":"sprites/spr_warp/spr_warp.yy",},},
     {"id":{"name":"TileSet4","path":"tilesets/TileSet4/TileSet4.yy",},},
     {"id":{"name":"ts_bloomtemples_front","path":"tilesets/ts_bloomtemples_front/ts_bloomtemples_front.yy",},},
