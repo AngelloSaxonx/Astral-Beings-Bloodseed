@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"Chaos Emperor",
+  "%Name":"AB Bloodseed",
   "AudioGroups":[
     {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -78,9 +78,9 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.14.4.222",
   },
-  "name":"Chaos Emperor",
+  "name":"AB Bloodseed",
   "resources":[
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
     {"id":{"name":"Note2","path":"notes/Note2/Note2.yy",},},
@@ -102,11 +102,12 @@
     {"id":{"name":"spr_azure_dash_air","path":"sprites/spr_azure_dash_air/spr_azure_dash_air.yy",},},
     {"id":{"name":"spr_azure_dash_down","path":"sprites/spr_azure_dash_down/spr_azure_dash_down.yy",},},
     {"id":{"name":"spr_azure_dash","path":"sprites/spr_azure_dash/spr_azure_dash.yy",},},
-    {"id":{"name":"spr_azure_idle","path":"sprites/spr_azure_idle/spr_azure_idle.yy",},},
     {"id":{"name":"spr_azure_jump","path":"sprites/spr_azure_jump/spr_azure_jump.yy",},},
     {"id":{"name":"spr_azure_run","path":"sprites/spr_azure_run/spr_azure_run.yy",},},
     {"id":{"name":"spr_azure_swim","path":"sprites/spr_azure_swim/spr_azure_swim.yy",},},
+    {"id":{"name":"spr_azure_walk_1","path":"sprites/spr_azure_walk_1/spr_azure_walk_1.yy",},},
     {"id":{"name":"spr_azure_walk","path":"sprites/spr_azure_walk/spr_azure_walk.yy",},},
+    {"id":{"name":"spr_azure","path":"sprites/spr_azure/spr_azure.yy",},},
     {"id":{"name":"spr_bloomtemple_front","path":"sprites/spr_bloomtemple_front/spr_bloomtemple_front.yy",},},
     {"id":{"name":"spr_Burnedeer","path":"sprites/spr_Burnedeer/spr_Burnedeer.yy",},},
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},},

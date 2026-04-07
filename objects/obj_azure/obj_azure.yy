@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_azure_idle",
-    "path":"sprites/spr_azure_idle/spr_azure_idle.yy",
+    "name":"spr_azure",
+    "path":"sprites/spr_azure/spr_azure.yy",
   },
   "spriteMaskId":null,
   "visible":true,

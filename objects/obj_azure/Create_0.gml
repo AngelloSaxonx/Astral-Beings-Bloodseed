@@ -1,7 +1,7 @@
 scr_contol_setup()
 
-mask_spr = spr_azure_idle;
-idle_spr = spr_azure_idle;
+mask_spr = spr_azure;
+idle_spr = spr_azure;
 walk_spr = spr_azure_walk;
 run_spr = spr_azure_run;
 dash_spr = spr_azure_dash;
