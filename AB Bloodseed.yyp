@@ -105,7 +105,6 @@
     {"id":{"name":"spr_azure_jump","path":"sprites/spr_azure_jump/spr_azure_jump.yy",},},
     {"id":{"name":"spr_azure_run","path":"sprites/spr_azure_run/spr_azure_run.yy",},},
     {"id":{"name":"spr_azure_swim","path":"sprites/spr_azure_swim/spr_azure_swim.yy",},},
-    {"id":{"name":"spr_azure_walk_1","path":"sprites/spr_azure_walk_1/spr_azure_walk_1.yy",},},
     {"id":{"name":"spr_azure_walk","path":"sprites/spr_azure_walk/spr_azure_walk.yy",},},
     {"id":{"name":"spr_azure","path":"sprites/spr_azure/spr_azure.yy",},},
     {"id":{"name":"spr_bloomtemple_front","path":"sprites/spr_bloomtemple_front/spr_bloomtemple_front.yy",},},
