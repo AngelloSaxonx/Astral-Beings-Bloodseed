@@ -6,7 +6,8 @@ walk_spr = spr_azure_walk;
 run_spr = spr_azure_run;
 dash_spr = spr_azure_dash;
 jump_spr = spr_azure_jump;
-dash_jump_spr = spr_azure_dash_air;
+dash_air_spr = spr_azure_dash_air;
+dash_down_spr = spr_azure_dash_down;
 swim_spr = spr_azure_swim;
 
 face = 1;
@@ -69,7 +70,7 @@ scr_state_idle = function(){
         xspd = face * dash_spd;
 			if down_key
 			{
-				yspd = dash_spd + 10;
+				yspd = dash_spd + 10
 				xspd = 0
 				dash_energy = dash_time
 			}
@@ -111,15 +112,21 @@ if on_ground
 //Jump
 else
     {    
-    //Run Jump
+    //Airdash
     if abs(xspd) >= move_spd[1] 
-        {if sprite_index != dash_jump_spr 
+        {if sprite_index != dash_air_spr 
             {image_index = 0}
-        sprite_index = dash_jump_spr}
-    else if sprite_index != dash_jump_spr
+        sprite_index = dash_air_spr;}
+	//Downdash
+	else if yspd = (dash_distance/dash_time) + 10
+		{if sprite_index != dash_down_spr
+			{image_index = 0}
+		sprite_index = dash_down_spr;}
+	//Jump
+    else if sprite_index != dash_air_spr || sprite_index != dash_down_spr
         {if sprite_index != jump_spr
             {image_index = 0}
-        sprite_index = jump_spr};
+        sprite_index = jump_spr}
 }
 
 };
