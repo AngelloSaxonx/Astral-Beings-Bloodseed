@@ -1,11 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"obj_swim",
+  "%Name":"obj_transition",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_swim",
+  "name":"obj_transition",
   "overriddenProperties":[],
   "parent":{
     "name":"Debug",
@@ -30,9 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_swim",
-    "path":"sprites/spr_swim/spr_swim.yy",
+    "name":"spr_transition",
+    "path":"sprites/spr_transition/spr_transition.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

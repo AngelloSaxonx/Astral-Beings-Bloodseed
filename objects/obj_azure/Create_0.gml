@@ -4,7 +4,7 @@ mask_spr = spr_azure;
 idle_spr = spr_azure;
 walk_spr = spr_azure_walk;
 run_spr = spr_azure_run;
-dash_spr = spr_azure_dash;
+
 jump_spr = spr_azure_jump;
 dash_air_spr = spr_azure_dash_air;
 dash_down_spr = spr_azure_dash_down;

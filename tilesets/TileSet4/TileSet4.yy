@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_Queen_bonus",
-    "path":"sprites/spr_Queen_bonus/spr_Queen_bonus.yy",
+    "name":"Queen_bonus",
+    "path":"sprites/Queen_bonus/Queen_bonus.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
