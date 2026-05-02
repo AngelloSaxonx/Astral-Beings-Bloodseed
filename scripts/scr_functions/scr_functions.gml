@@ -26,6 +26,9 @@ function scr_get_control()
 	run_key = keyboard_check(ord("C")) + gamepad_button_check( 0, gp_shoulderlb);
 		run_key = clamp( run_key, 0, 1);
 		
+	menu_key = keyboard_check_pressed(ord("F")) + gamepad_button_check(	0, gp_face4)
+		menu_key = clamp( menu_key, 0, 1)
+	
 	if jump_key_pressed
 	{
 		jump_key_buffer_timer = buffer_time;

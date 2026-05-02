@@ -8,8 +8,8 @@
   "name":"obj_crimson_lake_tent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Structures",
-    "path":"folders/Objets/Structures.yy",
+    "name":"Decors",
+    "path":"folders/Objets/Decors.yy",
   },
   "parentObjectId":{
     "name":"obj_collision",

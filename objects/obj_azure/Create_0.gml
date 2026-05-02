@@ -148,11 +148,13 @@ scr_state_swim = function()
 	{
 		var _ins = instance_place( x, y, obj_swim) 
 		var _at_surface = false;
+		//If character goes on water
 		if instance_exists(_ins)
 		{
 			var _yy = _ins.y+sprite_height/2
 			if (y > _yy){y = _yy};
 		}
+		//If he jumps out of water
 		if y+yspd <= _ins.y
 		{
 			yspd -= grav*2;
@@ -163,6 +165,8 @@ scr_state_swim = function()
 				_at_surface = true;
 			}
 		}
+		//movement
+		x += xspd
 		scr_movement(!_at_surface)
 	}
 
